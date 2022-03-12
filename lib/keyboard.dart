@@ -10,11 +10,11 @@ class MyKeyboard extends StatelessWidget {
       flex: 3,
       child: Center(
         child: Container(
-          color: Colors.grey[100],
+          color: Colors.grey,
           child: GridView.count(
             crossAxisCount: 4,
-            mainAxisSpacing: 3.0,
-            crossAxisSpacing: 3.0,
+            mainAxisSpacing: 10.0,
+            crossAxisSpacing: 5,
             children: [
               '7',
               '8',
