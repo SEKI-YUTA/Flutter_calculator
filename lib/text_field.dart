@@ -47,7 +47,7 @@ class _MyTextFieldState extends State<MyTextField> {
           Expression exp = p.parse(_expression);
           double result = exp.evaluate(EvaluationType.REAL, ContextModel());
           print(result);
-          _expression = "";
+          _expression = result.toString();
         } catch (e) {
           print('wpps!');
           print(e);
